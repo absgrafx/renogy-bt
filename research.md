@@ -17,6 +17,11 @@
     - Peripheral Id: 43101FBA-0B09-6E4F-E832-11A1801BD3F4
     - Manufacturer Data: f855481ba07c (is this mac ID? f8:55:48:1b:a0:7c)
     - Service UUID (most promise): 0000D0FF-3C17-D293-8E48-14FE2E4DA212
+    - Service Discovery: 
+        0000180a-0000-1000-8000-00805f9b34fb (Handle: 8): Device Information
+        0000ffd0-0000-1000-8000-00805f9b34fb (Handle: 27): Vendor specific
+        0000fff0-0000-1000-8000-00805f9b34fb (Handle: 44): Vendor specific
+        f000ffd0-0451-4000-b000-000000000000 (Handle: 49): Unknown
 
 - **Inverter Smart Shunt 300** - connected via BLE 
     - not online yet, but expect similar to Main Smart Shunt 300
