@@ -1,0 +1,89 @@
+User initiated device connection.
+15:35:34.0740: connected in underlying BLE layer.
+15:35:34.1610: discovered services: (
+    "Device Information",
+    FFF0,
+    "F000FFD0-0451-4000-B000-000000000000",
+    FFD0
+)
+15:35:34.2510: discovered characteristics for service 180A: (
+    "System ID",
+    "Model Number String",
+    "Serial Number String",
+    "Firmware Revision String",
+    "Hardware Revision String",
+    "Software Revision String",
+    "Manufacturer Name String",
+    "IEEE Regulatory Certification",
+    "PnP ID"
+)
+15:35:34.3100: discovered characteristics for service FFD0: (
+    FFD1,
+    FFD2,
+    FFD3,
+    FFD4,
+    FFD5
+)
+15:35:34.3690: discovered characteristics for service FFF0: (
+    FFF1
+)
+15:35:34.4930: discovered characteristics for service F000FFD0-0451-4000-B000-000000000000: (
+    "F000FFD1-0451-4000-B000-000000000000"
+)
+15:35:34.4940: state changed to 'Connected'.
+15:35:35.2390: received update from characteristic FFD1___FFD0: <>
+15:35:35.3300: received update from characteristic FFD2___FFD0: <>
+15:35:35.3890: received update from characteristic FFD4___FFD0: <>
+15:35:35.4500: received update from characteristic FFD5___FFD0: <>
+15:35:35.5400: received update from characteristic FFD1___FFD0: <>
+15:35:35.5990: received update from characteristic FFD2___FFD0: <>
+15:35:35.6590: received update from characteristic FFD4___FFD0: <>
+15:35:35.7510: received update from characteristic FFD5___FFD0: <>
+15:35:35.8110: received update from characteristic 2A23___180A: <00000000 00000000>
+15:35:35.9300: received update from characteristic 2A24___180A: <54432c52 3223342c 312c3234 382c53>
+15:35:35.9890: received update from characteristic 2A25___180A: <32303139 2d31312d 35>
+15:35:36.0790: received update from characteristic 2A26___180A: <56312e31>
+15:35:36.1700: received update from characteristic 2A27___180A: <46383535 34383141 36364237>
+15:35:36.2600: received update from characteristic 2A28___180A: <56312e31>
+15:35:36.3500: received update from characteristic 2A29___180A: <7777772e 74756e65 72313638 2e636f6d>
+15:35:36.4090: received update from characteristic 2A2A___180A: <fe006578 70657269 6d656e74 616c>
+15:35:36.5010: received update from characteristic 2A50___180A: <010d0000 001001>
+15:35:36.5900: received update from characteristic 2A23___180A: <00000000 00000000>
+15:35:36.6500: received update from characteristic 2A24___180A: <54432c52 3223342c 312c3234 382c53>
+15:35:36.7090: received update from characteristic 2A25___180A: <32303139 2d31312d 35>
+15:35:36.8000: received update from characteristic 2A26___180A: <56312e31>
+15:35:36.8590: received update from characteristic 2A27___180A: <46383535 34383141 36364237>
+15:35:36.9200: received update from characteristic 2A28___180A: <56312e31>
+15:35:37.1000: received update from characteristic 2A29___180A: <7777772e 74756e65 72313638 2e636f6d>
+15:35:37.1900: received update from characteristic 2A2A___180A: <fe006578 70657269 6d656e74 616c>
+15:35:37.2510: received update from characteristic 2A50___180A: <010d0000 001001>
+15:35:37.3080: failed to retrieve data from characteristic FFF1___FFF0: Error Domain=CBATTErrorDomain Code=10 "The attribute could not be found." UserInfo={NSLocalizedDescription=The attribute could not be found.}
+15:35:37.4000: failed to retrieve data from characteristic FFF1___FFF0: Error Domain=CBATTErrorDomain Code=10 "The attribute could not be found." UserInfo={NSLocalizedDescription=The attribute could not be found.}
+15:35:37.4590: received update from characteristic FFD1___FFD0: <>
+15:35:37.5210: received update from characteristic FFD2___FFD0: <>
+15:35:37.6090: received update from characteristic FFD4___FFD0: <>
+15:35:37.6690: received update from characteristic FFD5___FFD0: <>
+15:35:37.7290: received update from characteristic FFD1___FFD0: <>
+15:35:37.8210: received update from characteristic FFD2___FFD0: <>
+15:35:37.9110: received update from characteristic FFD4___FFD0: <>
+15:35:37.9690: received update from characteristic FFD5___FFD0: <>
+15:35:38.0600: received update from characteristic 2A23___180A: <00000000 00000000>
+15:35:38.1210: received update from characteristic 2A24___180A: <54432c52 3223342c 312c3234 382c53>
+15:35:38.1800: received update from characteristic 2A25___180A: <32303139 2d31312d 35>
+15:35:38.2700: received update from characteristic 2A26___180A: <56312e31>
+15:35:38.3290: received update from characteristic 2A27___180A: <46383535 34383141 36364237>
+15:35:38.3890: received update from characteristic 2A28___180A: <56312e31>
+15:35:38.4800: received update from characteristic 2A29___180A: <7777772e 74756e65 72313638 2e636f6d>
+15:35:38.5390: received update from characteristic 2A2A___180A: <fe006578 70657269 6d656e74 616c>
+15:35:38.6600: received update from characteristic 2A50___180A: <010d0000 001001>
+15:35:38.7200: received update from characteristic 2A23___180A: <00000000 00000000>
+15:35:38.7800: received update from characteristic 2A24___180A: <54432c52 3223342c 312c3234 382c53>
+15:35:38.9000: received update from characteristic 2A25___180A: <32303139 2d31312d 35>
+15:35:38.9590: received update from characteristic 2A26___180A: <56312e31>
+15:35:39.0200: received update from characteristic 2A27___180A: <46383535 34383141 36364237>
+15:35:39.1390: received update from characteristic 2A28___180A: <56312e31>
+15:35:39.1990: received update from characteristic 2A29___180A: <7777772e 74756e65 72313638 2e636f6d>
+15:35:39.2910: received update from characteristic 2A2A___180A: <fe006578 70657269 6d656e74 616c>
+15:35:39.3500: received update from characteristic 2A50___180A: <010d0000 001001>
+15:35:39.4090: failed to retrieve data from characteristic FFF1___FFF0: Error Domain=CBATTErrorDomain Code=10 "The attribute could not be found." UserInfo={NSLocalizedDescription=The attribute could not be found.}
+15:35:39.4990: failed to retrieve data from characteristic FFF1___FFF0: Error Domain=CBATTErrorDomain Code=10 "The attribute could not be found." UserInfo={NSLocalizedDescription=The attribute could not be found.}

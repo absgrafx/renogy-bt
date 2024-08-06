@@ -1,0 +1,65 @@
+User initiated device connection.
+15:10:34.4130: connected in underlying BLE layer.
+15:10:34.8940: discovered services: (
+    "0000C011-0000-1000-8000-00805F9B34FB",
+    "00006287-3C17-D293-8E48-14FE2E4DA212",
+    "0000D0FF-3C17-D293-8E48-14FE2E4DA212",
+    1827,
+    1828
+)
+15:10:35.0120: discovered characteristics for service 0000D0FF-3C17-D293-8E48-14FE2E4DA212: (
+    FFD1,
+    FFD2,
+    FFD3,
+    FFD4,
+    FFD5,
+    FFD8,
+    FFF1,
+    FFF2,
+    FFE0
+)
+15:10:35.1630: discovered characteristics for service 00006287-3C17-D293-8E48-14FE2E4DA212: (
+    "00006387-3C17-D293-8E48-14FE2E4DA212",
+    "00006487-3C17-D293-8E48-14FE2E4DA212"
+)
+15:10:35.3430: discovered characteristics for service 0000C011-0000-1000-8000-00805F9B34FB: (
+    "0000C111-0000-1000-8000-00805F9B34FB",
+    "0000C211-0000-1000-8000-00805F9B34FB",
+    "0000C311-0000-1000-8000-00805F9B34FB",
+    "0000C411-0000-1000-8000-00805F9B34FB",
+    "0000C511-0000-1000-8000-00805F9B34FB",
+    "0000C611-0000-1000-8000-00805F9B34FB"
+)
+15:10:35.4610: discovered characteristics for service 1827: (
+    2ADB,
+    2ADC
+)
+15:10:35.7930: discovered characteristics for service 1828: (
+    2ADD,
+    2ADE
+)
+15:10:35.7970: state changed to 'Connected'.
+15:10:36.3620: received update from characteristic FFD2___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <4ce17451 95ae>
+15:10:36.4220: received update from characteristic FFD3___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <01901008>
+15:10:36.4810: received update from characteristic FFD4___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <21200008>
+15:10:36.6020: received update from characteristic FFD5___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <00000000>
+15:10:36.6630: received update from characteristic FFF1___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <05010007 00080000 300f0000>
+15:10:36.7240: received update from characteristic FFE0___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <01901008 21200008>
+15:10:36.8130: received update from characteristic FFD2___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <4ce17451 95ae>
+15:10:36.9030: received update from characteristic FFD3___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <01901008>
+15:10:36.9930: received update from characteristic FFD4___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <21200008>
+15:10:37.0540: received update from characteristic FFD5___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <00000000>
+15:10:37.1120: received update from characteristic FFF1___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <05010007 00080000 300f0000>
+15:10:37.2020: received update from characteristic FFE0___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <01901008 21200008>
+15:10:37.4110: received update from characteristic FFD2___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <4ce17451 95ae>
+15:10:37.4710: received update from characteristic FFD3___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <01901008>
+15:10:37.5310: received update from characteristic FFD4___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <21200008>
+15:10:37.6220: received update from characteristic FFD5___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <00000000>
+15:10:37.6810: received update from characteristic FFF1___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <05010007 00080000 300f0000>
+15:10:37.7410: received update from characteristic FFE0___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <01901008 21200008>
+15:10:37.8630: received update from characteristic FFD2___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <4ce17451 95ae>
+15:10:37.9240: received update from characteristic FFD3___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <01901008>
+15:10:38.0420: received update from characteristic FFD4___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <21200008>
+15:10:38.1010: received update from characteristic FFD5___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <00000000>
+15:10:38.1630: received update from characteristic FFF1___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <05010007 00080000 300f0000>
+15:10:38.2530: received update from characteristic FFE0___0000D0FF-3C17-D293-8E48-14FE2E4DA212: <01901008 21200008>
