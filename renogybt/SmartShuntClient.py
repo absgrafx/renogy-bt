@@ -1,7 +1,7 @@
 import logging
 from .BaseClient import BaseClient
+from .Utils import bytes_to_int, parse_temperature
 
-# Retrieve last 7 days of historical data from Rover/Wanderer/Adventurer
 
 class SmartShuntClient(BaseClient):
     def __init__(self, config, on_data_callback=None):
