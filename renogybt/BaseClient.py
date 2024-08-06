@@ -10,8 +10,8 @@ from .BLE import DeviceManager, Device
 # Should be extended by each client with its own parsers and section definitions
 # Section example: {'register': 5000, 'words': 8, 'parser': self.parser_func}
 
-# ALIAS_PREFIX = 'BT-TH'
-ALIAS_PREFIX = 'RNGONECore'
+ALIAS_PREFIX = 'BT-TH'
+# ALIAS_PREFIX = 'RNGONECore'
 NOTIFY_CHAR_UUID = "0000fff1-0000-1000-8000-00805f9b34fb"
 WRITE_CHAR_UUID  = "0000ffd1-0000-1000-8000-00805f9b34fb"
 READ_TIMEOUT = 30 # (seconds)
