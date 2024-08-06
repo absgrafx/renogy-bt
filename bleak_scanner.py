@@ -4,7 +4,10 @@ from bleak import BleakScanner, BleakClient
 # Replace with your device's MAC address and UUIDs
 # DEVICE_MAC = "f8:55:48:1b:a0:7c"
 DEVICE_MAC = "F8:55:48:1B:A0:7C"
-SERVICE_UUID = "0000180a-0000-1000-8000-00805f9b34fb"
+# SERVICE_UUID = "0000180a-0000-1000-8000-00805f9b34fb" # (Handle: 8): Device Information
+# SERVICE_UUID = "0000ffd0-0000-1000-8000-00805f9b34fb" # (Handle: 27): Vendor specific
+# SERVICE_UUID = "0000fff0-0000-1000-8000-00805f9b34fb" # (Handle: 44): Vendor specific
+SERVICE_UUID = "f000ffd0-0451-4000-b000-000000000000" # (Handle: 49): Unknown
 CHARACTERISTIC_UUID = "0000D0FF-3C17-D293-8E48-14FE2E4DA212"
 
 async def main():
